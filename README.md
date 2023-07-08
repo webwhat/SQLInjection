@@ -1,12 +1,17 @@
 # SQLInjection
 SqIinjection 테스트 코드 
 
-오류 메시지 점검
+탐지 점검
 ```
 &apos;
 '
 ```
 
+```
+or 1=1 -- 
+' or 1=1 -- 
+" or 1=1 -- 
+1 and 1=2 -- 
 ```
 '//AND//'1%'='0 
 ```
