@@ -9,6 +9,9 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 ';SELECT 1;SELECT pg_sleep\(30\);--'
 ```
 
+```
+https://github.com/payloadbox/sql-injection-payload-list
+```
 SqIinjection 테스트 코드 
 
 탐지 점검
