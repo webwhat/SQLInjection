@@ -4,8 +4,9 @@ SqIinjection 테스트 코드
 
 
 '//AND//'1%'='0     
- OR x=y     
- HAVING 1=0
+
+OR x=y     
+HAVING 1=0
 AND 1=0
 AND 7=9 AND (5=5
  AND 7=9 AND ('5=5
