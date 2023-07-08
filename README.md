@@ -1,9 +1,12 @@
 # SQLInjection
 SqIinjection 테스트 코드 
 
+'//AND//'1%'='0 
 
+우회 테스트 코드 
+'/**/AND/**/'1%'='0
 
-'//AND//'1%'='0     
+   
 
 OR x=y     
 
