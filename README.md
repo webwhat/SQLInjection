@@ -1,6 +1,12 @@
 # SQLInjection
 SqIinjection 테스트 코드 
 
+오류 메시지 점검
+```
+&apos;
+'
+```
+
 ```
 '//AND//'1%'='0 
 ```
