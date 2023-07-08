@@ -6,6 +6,7 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 
 ```
 ,(select * from (select(sleep(10)))a)
+';SELECT 1;SELECT pg_sleep\(30\);--'
 ```
 
 SqIinjection 테스트 코드 
