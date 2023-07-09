@@ -20,6 +20,7 @@ MSQL
 
 ```
 /*'XOR(if(2=2,sleep(10),0))OR'
+'%2b(select*from(select(sleep(5)))a)%2b'
 ```
 
 
